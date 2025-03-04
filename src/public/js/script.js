@@ -18,7 +18,7 @@ const products = [
         name: "Netflix",
         price: 20000,
         image: "https://pomf2.lain.la/f/iixlv83u.jpg",
-        description: `Netflix Premium, Price :           - 1week 1p2u (8k)\n- 1week 1p1u (9k)\n- 1moonth 1p2u (15k)\n- 1moonth (20k)- SemiPrivate (30k)`,
+        description: `Price : 1week 1p2u (8k) — 1week 1p1u (9k) — 1moonth 1p2u (15k) — 1moonth (20k) — SemiPrivate (30k)`,
         author: "Seon",
         features: [
             "Murah meriah",
@@ -29,7 +29,12 @@ const products = [
              {
                logo: wa,
                description: waD,
-               link: 'https://link-wa'
+               link: 'https://wa.me/62895402466525'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/seonnnnnnn'
             },
         ]
     },
