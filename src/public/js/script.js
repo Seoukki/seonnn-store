@@ -15,15 +15,16 @@ const webD = 'Order Via Website'
 const products = [
     {
         id: 1,
-        name: "Netflix",
-        price: 2000,
-        image: "https://pomf2.lain.la/f/iixlv83u.jpg",
-        description: "Netflix Premium, Price :\n\n- 1week 1p2u (8k)\n- 1week 1p1u (9k)\n- 1moonth 1p2u (15k)\n- 1moonth (20k)- SemiPrivate (30k)",
-        author: "Seonn",
+        name: "Panel Pterodactyl",
+        price: 7000,
+        image: "https://telegra.ph/file/1679b6df9fbe3e697c0cf.jpg",
+        description: "Panel Unli Murah, Kualitas Istimewah.",
+        author: "ShannModerz",
         features: [
-            "Premium",
-            "Murah Meriah",
-            "Garansi 30D"
+            "Unlimited",
+            "Server Privat",
+            "Garansi 15D",
+            "Max Durasi 30D"
         ],
         paymentMethods: [
              {
@@ -532,7 +533,7 @@ TOTAL FEATURE 600+`,
                 link: 'https://www.facebook.com/KevinOfficial32'
             }
         ]
-        },
+    },
     {
         id: 19,
         name: "SC SinBotz",
@@ -547,26 +548,331 @@ TOTAL FEATURE 600+`,
              {
                logo: wa,
                description: waD,
-               link: 'https://wa.me/6283898383437'
+               link: 'https://wa.me/6283873123398?text=BANG+MAU+BUY'
             },
             {
                 logo: tele,
                 description: teleD,
-                link: 'https://t.me/KevinOfficial12'
+                link: 'https://t.me/afsin_store'
             },
             {
                 logo: ig,
                 description: igD,
-                link: 'https://instagram.com/KevinOfficialReal'
+                link: 'https://instagram.com/afsin_store'
+            },
+        ]
+    },
+    {
+        id: 20,
+        name: "PANEL PTERODACTYL",
+        price: 15000,
+        image: "https://telegra.ph/file/35c3f0416df1c2f55325b.jpg",
+        description: "SEBUAH PRODUK DIGITAL UNTUK RUNNING BOT WHATSAPP, TELE MAUPUN DISCORD",
+        author: "AFSIN STORE",
+        features: [
+            "PANEL PRIVAT"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283873123398?text=BANG+MAU+BUY'
             },
             {
-                logo: fb,
-                description: fbD,
-                link: 'https://www.facebook.com/KevinOfficial32'
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/afsin_store'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/afsin_store'
+            },
+        ]
+    },
+    {
+        id: 21,
+        name: "Panel Pterodactyl",
+        price: 6000,
+        image: "https://telegra.ph/file/c9f1904ea024bdad17184.jpg",
+        description: "PANEL UNLI MURAH",
+        author: "Zax",
+        features: [
+            "UNLIMITED",
+            "SERVER PRIVAT",
+            "GARANSI 14D",
+            "MAX DURASI 30D"
+        ],
+        paymentMethods: [
+             {
+               logo: tele,
+               description: teleD,
+               link: 'https://t.me/hamz0875'
+            },
+        ]
+    },
+    {
+        id: 22,
+        name: "Website Builder",
+        price: 80000,
+        image: "https://telegra.ph/file/db067838a27d976ebcd3d.jpg",
+        description: "Untuk Jasa Pembuatan Store Dengan Harga 80.000 Sudah Terima Jadi, Dapat Sub Domain .shop dan mendapatkan gratis whatsapp Api Geteway Trial Dengan Exp 5Days Untuh Preview Website Bisa Cek oredigital.shop",
+        author: "Ore Digital",
+        features: [
+            "Setting website via admin panel",
+            "Free sub domain",
+            "Proses instalasi 10mnt - 1jam",
+            "Website dipastikan aman 100%",
+            "Perpanjangan Web 10k/bln"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283170801193'
+            },
+            {
+               logo: tele,
+               description: teleD,
+               link: 'https://t.me/@oredigital'
+            },
+            {
+              logo: web,
+              description: webD,
+              link: 'https://oredigital.shop'
+            },
+        ]
+    },
+    {
+        id: 23,
+        name: "Panel Murah",
+        price: 5000,
+        image: "https://telegra.ph/file/cd80c20567e83a217c784.jpg",
+        description: "📮 RAM 4GB CPU 100% : 4K, 📮 RAM 5GB CPU 120% : 5K, 📮 RAM 6GB CPU 150% : 6K, 📮 RAM 7GB CPU 180% : 7K, 📮 RAM 8GB CPU 210% : 8K, 📮 UNLI GB CPU UNLI : 10K",
+        author: "© caca shop",
+        features: [
+            "BANYAK"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6285283090385'
+            },
+            {
+               logo: tele,
+               description: teleD,
+               link: 'https://t.me/prettyluvv.caa_'
+            },
+        ]
+    },
+    {
+        id: 24,
+        name: "Panel Privat",
+        price: 6000,
+        image: "https://telegra.ph/file/717ccd1513e792014a9d2.jpg",
+        description: "Panel Unli Murah",
+        author: "Valiant Store",
+        features: [
+            "Server aman + terjaga",
+            "Sc aman"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6282253595771'
+            },
+            {
+               logo: tele,
+               description: teleD,
+               link: 'https://t.me/valiant29'
+            },
+        ]
+    },
+    {
+        id: 25,
+        name: "ADP",
+        price: 5000,
+        image: "https://telegra.ph/file/e166a815f4211d5ce6757.jpg",
+        description: "Admin panel spek gg dengan harga yang murah",
+        author: "zen",
+        features: [
+            "No Lag"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6288226340200'
+            },
+        ]
+    },
+    {
+        id: 26,
+        name: "Netflix Premium",
+        price: 30000,
+        image: "https://telegra.ph/file/d320b84f1154ea08535d4.jpg",
+        description: "Akun netflix premium murah 1bulan",
+        author: "MolarAzka Tore",
+        features: [
+            "Lebih murah dan terjangkau"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6282329141154'
+            },
+            {
+              logo: email,
+              description: emailD,
+              link: 'mailto:bussidazka@gmail.com'
             }
         ]
+    },
+    {
+        id: 27,
+        name: "SCRIPT NOVA-TECH",
+        price: 40000,
+        image: "https://telegra.ph/file/6be4af7f7dd2a3a7f84a7.jpg",
+        description: "Script bot wa free update dan fix simple fitur",
+        author: "SANZMD",
+        features: [
+            "Free Update",
+            "Free Fix Keamanan Script",
+            "Simple Dan Size Ringan"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6288706430660'
+            },
+        ]
+    },
+];
+
+
+
+
+
+
+
+// Generate product list
+const productsSection = document.querySelector(".products");
+products.forEach((product) => {
+    const productCard = document.createElement("div");
+    productCard.innerHTML = `
+        <img src="${product.image}" alt="${product.name}">
+        <h2 class="tityd">${product.name}</h2>
+        <p>Rp ${product.price.toLocaleString('id-ID')}</p>
+    `;
+    productCard.addEventListener('click', () => openProductDetail(product));
+    productsSection.appendChild(productCard);
+});
+
+function openProductDetail(product) {
+    const overlay = document.getElementById("product-detail-overlay");
+    const detailContent = document.getElementById("product-detail");
+    const overlayContent = document.getElementById("product-detail-content");
+    
+    detailContent.innerHTML = `
+        <div class="product-image-container">
+            <img src="${product.image}" alt="${product.name}" class="product-detail-image">
+        </div>
+        <div class="product-info">
+            <h2>${product.name}</h2>
+            <p class="product-price">Rp ${product.price.toLocaleString('id-ID')}</p>
+            <p>${product.description}</p>
+            <h3>Di Publikasi Oleh</h3>
+              <h5>✒️ ${product.author}</h5>
+            <h3>Keunggulan Produk</h3>
+            <ul>
+                ${product.features.map(feature => `<li>${feature}</li>`).join('')}
+            </ul>
+            <button class="buy-button" onclick="openPaymentMenu(${product.id})">Beli Produk</button>
+    `;
+    
+    overlay.style.display = "block";
+    overlayContent.scrollTop = 0;
+    
+    setTimeout(() => {
+        overlay.classList.add('active');
+    }, 10);
+
+    // Reset payment menu state
+    document.getElementById('payment-menu').classList.remove('active');
+    document.getElementById('close-detail').style.display = 'flex';
+}
+
+function openPaymentMenu(productId) {
+    const product = products.find(p => p.id === productId);
+    const paymentMenu = document.getElementById('payment-menu');
+    const paymentOptions = document.getElementById('payment');
+
+    paymentOptions.innerHTML = product.paymentMethods.map(method => `
+        <div class="payment-option" onclick="selectPaymentMethod('${method.link}')">
+        <img src="${method.logo}" alt="${method.description}">
+        <span class="payy">${method.description}</span>
+      </div>
+    `).join('');
+
+    paymentMenu.classList.add('active');
+}
+
+function selectPaymentMethod(link) {
+    window.location.href = link;
+}
+
+// Close payment menu when clicking outside
+document.addEventListener('click', (event) => {
+    const paymentMenu = document.getElementById('payment-menu');
+    if (paymentMenu.classList.contains('active') && !paymentMenu.contains(event.target) && !event.target.classList.contains('buy-button')) {
+        paymentMenu.classList.remove('active');
     }
-               
+});
+
+function animateCount(elementId, target, duration) {
+    const element = document.getElementById(elementId);
+    const start = 0;
+    const increment = target / (duration / 16); // 16ms adalah sekitar 60fps
+    let current = start;
+
+    const animateCount = () => {
+        current += increment;
+        element.textContent = Math.floor(current).toLocaleString();
+
+        if (current < target) {
+            requestAnimationFrame(animateCount);
+        } else {
+            element.textContent = target.toLocaleString();
+        }
+    };
+
+    animateCount();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    animateCount('seller-count', 24, 4000); // Total Penjual
+    animateCount('sales-count', 28, 4000); // Total Terjual
+    animateCount('sell', 56, 4000);
+    
+    const closeButton = document.getElementById('close-detail');
+    closeButton.addEventListener('click', closeProductDetail);
+});
+
+document.querySelectorAll('.product-item').forEach((item, index) => {
+    item.addEventListener('click', () => openProductDetail(products[index]));
+});
+
+// Close the overlay when clicking outside the content
+document.getElementById("product-detail-overlay").addEventListener('click', (event) => {
+    if (event.target.id === "product-detail-overlay") {
+        closeProductDetail();
+    }
+});
+
 // Function to close product detail overlay
 let lastScrollPosition = 0;
 
