@@ -16,7 +16,7 @@ const products = [
     {
         id: 1,
         name: "Netflix",
-        price: 20000,
+        price: 2000,
         image: "https://pomf2.lain.la/f/iixlv83u.jpg",
         description: "Netflix Premium, Price :\n\n- 1week 1p2u (8k)\n- 1week 1p1u (9k)\n- 1moonth 1p2u (15k)\n- 1moonth (20k)- SemiPrivate (30k)",
         author: "Seonn",
@@ -55,7 +55,7 @@ const products = [
         ]
     },
     {
-        id: 3,
+        id: 28,
         name: "Jasa Pembuatan Aplikasi",
         price: 50000,
         image: "https://endpoint.web.id/server/file/82v41e405aMPd5H.jpg",
@@ -80,7 +80,7 @@ const products = [
         ]
     },
     {
-        id: 4,
+        id: 10,
         name: "SC BOT LENWY",
         price: 25000,
         image: "https://telegra.ph/file/8d5874daf03be2a5797ec.jpg",
@@ -108,7 +108,7 @@ const products = [
         ]
     },
     {
-        id: 5,
+        id: 12,
         name: "VPS ISP DIGITAL OCEAN",
         price: 20000,
         image: "https://telegra.ph/file/aa107831e82ec120fb062.png",
@@ -136,7 +136,7 @@ const products = [
         ]
     },
     {
-        id: 5,
+        id: 3,
         name: "Sc GisellBot",
         price: 40000,
         image: "https://telegra.ph/file/4c96073370c1f31e015c1.jpg",
@@ -164,7 +164,7 @@ const products = [
         ]
     },
     {
-        id: 6,
+        id: 5,
         name: "Nokos Virtual All Country",
         price: 7000,
         image: "https://telegra.ph/file/1aa5f3490241098746a03.jpg",
@@ -197,7 +197,7 @@ const products = [
         ]
     },
     {
-        id: 7,
+        id: 4,
         name: "SC KOMARI_BOTZ",
         price: 65000,
         image: "https://telegra.ph/file/925f1006a95e568bb6b1b.jpg",
@@ -223,7 +223,7 @@ const products = [
         ]
     },
     {
-        id: 8,
+        id: 11,
         name: "VPS DO & PANEL PRIVAT",
         price: 2000,
         image: "https://telegra.ph/file/6998249dbf2154f63df33.jpg",
@@ -251,7 +251,7 @@ const products = [
         ]
     },
     {
-        id: 9,
+        id: 6,
         name: "Sc Bot Md Getaway Qris",
         price: 40000,
         image: "https://telegra.ph/file/519c96a636118ee9ba1bf.jpg",
@@ -284,7 +284,7 @@ const products = [
         ]
     },
     {
-        id: 10,
+        id: 14,
         name: "VPS DIGITAL OCEAN",
         price: 35000,
         image: "https://telegra.ph/file/35bb4006e051f63fe5c78.jpg",
@@ -308,7 +308,7 @@ const products = [
         ]
     },
     {
-        id: 11,
+        id: 13,
         name: "PT PANEL",
         price: 15000,
         image: "https://telegra.ph/file/e8193b642f56d654d8625.jpg",
@@ -331,7 +331,7 @@ const products = [
         ]
     },
     {
-        id: 12,
+        id: 9,
         name: "Sc Bot Wa Fiisya MD",
         price: 35000,
         image: "https://telegra.ph/file/b15eabc4184aa41e90a2d.jpg",
@@ -367,147 +367,206 @@ TOTAL FEATURE 600+`,
         ]
     },
     {
-        id: 13,
-        name: "SCRIPT NOVA-TECH",
-        price: 40000,
-        image: "https://telegra.ph/file/6be4af7f7dd2a3a7f84a7.jpg",
-        description: "Script bot wa free update dan fix simple fitur",
-        author: "SANZMD",
+        id: 7,
+        name: "Vps Kyouka Digital",
+        price: 15000,
+        image: "https://telegra.ph/file/68dd346dbe531bb79884c.jpg",
+        description: "15k-70k VpsCore adalah solusi VPS premium yang dirancang untuk memenuhi kebutuhan komputasi dan hosting Anda. Dengan performa tinggi dan keandalan yang terjamin, VpsCore memastikan bisnis dan aplikasi Anda berjalan tanpa hambatan. Dapatkan kebebasan penuh dalam mengelola server Anda dengan keamanan tingkat tinggi.",
+        author: "Kyouka Digital",
         features: [
-            "Free Update",
-            "Free Fix Keamanan Script",
-            "Simple Dan Size Ringan"
+            "Performa Tinggi: Didukung oleh hardware terbaru untuk memastikan kecepatan dan responsivitas optimal. Sesuai dengan Ram Vps yang kamu inginkan.",
+            "Keandalan: Uptime 99,99% yang memastikan situs atau aplikasi Anda selalu online. Garansi 20 Hari",
+            "Fleksibilitas: Pilihan konfigurasi yang dapat disesuaikan sesuai kebutuhan Anda."
         ],
         paymentMethods: [
              {
                logo: wa,
                description: waD,
-               link: 'https://wa.me/6288706430660'
+               link: 'https://wa.me/6288293622523'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/StoreyusID'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/arastor'
             },
         ]
     },
-];
-
-
-
-
-
-
-
-// Generate product list
-const productsSection = document.querySelector(".products");
-products.forEach((product) => {
-    const productCard = document.createElement("div");
-    productCard.innerHTML = `
-        <img src="${product.image}" alt="${product.name}">
-        <h2 class="tityd">${product.name}</h2>
-        <p>Rp ${product.price.toLocaleString('id-ID')}</p>
-    `;
-    productCard.addEventListener('click', () => openProductDetail(product));
-    productsSection.appendChild(productCard);
-});
-
-function openProductDetail(product) {
-    const overlay = document.getElementById("product-detail-overlay");
-    const detailContent = document.getElementById("product-detail");
-    const overlayContent = document.getElementById("product-detail-content");
-    
-    detailContent.innerHTML = `
-        <div class="product-image-container">
-            <img src="${product.image}" alt="${product.name}" class="product-detail-image">
-        </div>
-        <div class="product-info">
-            <h2>${product.name}</h2>
-            <p class="product-price">Rp ${product.price.toLocaleString('id-ID')}</p>
-            <p>${product.description}</p>
-            <h3>Di Publikasi Oleh</h3>
-              <h5>✒️ ${product.author}</h5>
-            <h3>Keunggulan Produk</h3>
-            <ul>
-                ${product.features.map(feature => `<li>${feature}</li>`).join('')}
-            </ul>
-            <button class="buy-button" onclick="openPaymentMenu(${product.id})">Beli Produk</button>
-    `;
-    
-    overlay.style.display = "block";
-    overlayContent.scrollTop = 0;
-    
-    setTimeout(() => {
-        overlay.classList.add('active');
-    }, 10);
-
-    // Reset payment menu state
-    document.getElementById('payment-menu').classList.remove('active');
-    document.getElementById('close-detail').style.display = 'flex';
-}
-
-function openPaymentMenu(productId) {
-    const product = products.find(p => p.id === productId);
-    const paymentMenu = document.getElementById('payment-menu');
-    const paymentOptions = document.getElementById('payment');
-
-    paymentOptions.innerHTML = product.paymentMethods.map(method => `
-        <div class="payment-option" onclick="selectPaymentMethod('${method.link}')">
-        <img src="${method.logo}" alt="${method.description}">
-        <span class="payy">${method.description}</span>
-      </div>
-    `).join('');
-
-    paymentMenu.classList.add('active');
-}
-
-function selectPaymentMethod(link) {
-    window.location.href = link;
-}
-
-// Close payment menu when clicking outside
-document.addEventListener('click', (event) => {
-    const paymentMenu = document.getElementById('payment-menu');
-    if (paymentMenu.classList.contains('active') && !paymentMenu.contains(event.target) && !event.target.classList.contains('buy-button')) {
-        paymentMenu.classList.remove('active');
+    {
+        id: 8,
+        name: "Pterodactyl (host bot whatsapp)",
+        price: 1000,
+        image: "https://telegra.ph/file/9419de0b2cea6b8beb096.jpg",
+        description: "Menjual Panel Bot WhatsApp Dengan Harga Terjangkau Dan Kualitas Terjamin",
+        author: "NabilGtPs",
+        features: [
+            "Server Terjaga",
+            "Harga Terjangkau",
+            "Kualitas Terjamin",
+            "Hemat Kuota",
+            "Hemat Penyimpanan",
+            "Web close Bot tetap on",
+            "Menggunakan vps 8GB RAM 4VCPU Intel Premium"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6285180768293'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/NaBiLGTPS'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/nabilgtps'
+            },
+        ]
+    },
+    {
+        id: 15,
+        name: "CPANEL WHM",
+        price: 15000,
+        image: "https://telegra.ph/file/aa543f8cc8199225780f7.jpg",
+        description: "Whm mini 15k, whm medium 20k, whm extra 25k, whm super 30k, Server Lanjayy",
+        author: "King Of Bear",
+        features: [
+            "100% Amanah Dan Sudah Banyak Testimoni"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6288279268363'
+            },
+        ]
+    },
+    {
+        id: 16,
+        name: "Vps Digital Ocean",
+        price: 20000,
+        image: "https://telegra.ph/file/549a841b6be097d7fbc9f.png",
+        description: "20k-85k Murah bergaransi 15 Hari",
+        author: "FahryCruel",
+        features: [
+            "100% Amanah Dan Sudah Banyak Testimoni"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6281578268507'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/FahryCruell'
+            },
+        ]
+    },
+    {
+        id: 17,
+        name: "NOKOS",
+        price: 7000,
+        image: "https://telegra.ph/file/6451f43ed8feb866b592e.png",
+        description: "NOKOS ALL CONTRY",
+        author: "Petra Store",
+        features: [
+            "Otp max 3x",
+            "Bisa Request Operator"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6281389190294'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/PetraStore'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/petrastore19'
+            },
+        ]
+    },
+    {
+        id: 18,
+        name: "Admin Panel Perbulan Fresh",
+        price: 20000,
+        image: "https://telegra.ph/file/3bfeb2e539f20afe44d42.jpg",
+        description: "Panel Khusus Bot Wa, Open murbug juga",
+        author: "Kevin Official",
+        features: [
+            "Create Panel Sepuasnya"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283898383437'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/KevinOfficial12'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/KevinOfficialReal'
+            },
+            {
+                logo: fb,
+                description: fbD,
+                link: 'https://www.facebook.com/KevinOfficial32'
+            }
+        ]
+        },
+    {
+        id: 19,
+        name: "SC SinBotz",
+        price: 40000,
+        image: "https://telegra.ph/file/562b0c675c2356b37c6a9.png",
+        description: "SCRIPT BOT WHATSAPP YANG DILENGKAPI BERBAGAI AI, MULAI DARI GPT 4 TURBO,   GEMINI DAN AI GENERATE IMAGE, DAN FITUR UNGGULAN LAINNYA DENGAN VERSI BUTTON, DAN BISA DI SETMENU (1-7), Rp40.000 GAK DAPAT UPDATE, Rp75.000 UPDATE TIAP BULAN",
+        author: "AFSIN STORE",
+        features: [
+            "Free Panel Unlimited"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283898383437'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/KevinOfficial12'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/KevinOfficialReal'
+            },
+            {
+                logo: fb,
+                description: fbD,
+                link: 'https://www.facebook.com/KevinOfficial32'
+            }
+        ]
     }
-});
-
-function animateCount(elementId, target, duration) {
-    const element = document.getElementById(elementId);
-    const start = 0;
-    const increment = target / (duration / 16); // 16ms adalah sekitar 60fps
-    let current = start;
-
-    const animateCount = () => {
-        current += increment;
-        element.textContent = Math.floor(current).toLocaleString();
-
-        if (current < target) {
-            requestAnimationFrame(animateCount);
-        } else {
-            element.textContent = target.toLocaleString();
-        }
-    };
-
-    animateCount();
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    animateCount('seller-count', 24, 4000); // Total Penjual
-    animateCount('sales-count', 28, 4000); // Total Terjual
-    animateCount('sell', 56, 4000);
-    
-    const closeButton = document.getElementById('close-detail');
-    closeButton.addEventListener('click', closeProductDetail);
-});
-
-document.querySelectorAll('.product-item').forEach((item, index) => {
-    item.addEventListener('click', () => openProductDetail(products[index]));
-});
-
-// Close the overlay when clicking outside the content
-document.getElementById("product-detail-overlay").addEventListener('click', (event) => {
-    if (event.target.id === "product-detail-overlay") {
-        closeProductDetail();
-    }
-});
-
+               
 // Function to close product detail overlay
 let lastScrollPosition = 0;
 
@@ -535,4 +594,64 @@ const searchTriggerBtn = document.querySelector('.search-container .search-bar b
 const backButton = document.getElementById('back-button');
 
 function openSearchOverlay() {
-    sea
+    searchOverlay.classList.add('active');
+    searchInput.focus();
+    searchInput.placeholder = searchTrigger.placeholder;
+}
+
+function closeSearchOverlay() {
+    searchOverlay.classList.remove('active');
+}
+
+function performSearch() {
+    const query = searchInput.value.toLowerCase();
+    const filteredProducts = products.filter(product => 
+        product.name.toLowerCase().includes(query) ||
+        product.description.toLowerCase().includes(query)
+    );
+
+    displaySearchResults(filteredProducts);
+}
+
+function displaySearchResults(results) {
+    searchResults.innerHTML = '';
+    if (results.length === 0) {
+        searchResults.innerHTML = '<p>No products found.</p>';
+        return;
+    }
+
+    results.forEach(product => {
+        const resultItem = document.createElement('div');
+        resultItem.classList.add('search-result-item');
+        resultItem.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <div class="product-info">
+                <h3>${product.name}</h3>
+                <p>Rp ${product.price.toLocaleString('id-ID')}</p>
+            </div>
+        `;
+        resultItem.addEventListener('click', () => {
+            openProductDetail(product);
+            closeSearchOverlay();
+        });
+        searchResults.appendChild(resultItem);
+    });
+}
+
+searchTrigger.addEventListener('click', openSearchOverlay);
+searchTriggerBtn.addEventListener('click', openSearchOverlay);
+searchButton.addEventListener('click', performSearch);
+searchInput.addEventListener('keyup', (e) => {
+    if (e.key === 'Enter') {
+        performSearch();
+    }
+});
+
+backButton.addEventListener('click', closeSearchOverlay);
+
+document.getElementById("product-detail-overlay").addEventListener('transitionend', (event) => {
+    if (event.propertyName === 'transform' && event.target.classList.contains('active')) {
+        const overlayContent = document.getElementById("product-detail-content");
+        overlayContent.scrollTop = 0;
+    }
+});
