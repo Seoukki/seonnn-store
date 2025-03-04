@@ -55,7 +55,7 @@ const products = [
         ]
     },
     {
-        id: 28,
+        id: 3,
         name: "Jasa Pembuatan Aplikasi",
         price: 50000,
         image: "https://endpoint.web.id/server/file/82v41e405aMPd5H.jpg",
@@ -80,7 +80,7 @@ const products = [
         ]
     },
     {
-        id: 10,
+        id: 4,
         name: "SC BOT LENWY",
         price: 25000,
         image: "https://telegra.ph/file/8d5874daf03be2a5797ec.jpg",
@@ -108,7 +108,7 @@ const products = [
         ]
     },
     {
-        id: 12,
+        id: 5,
         name: "VPS ISP DIGITAL OCEAN",
         price: 20000,
         image: "https://telegra.ph/file/aa107831e82ec120fb062.png",
@@ -136,7 +136,7 @@ const products = [
         ]
     },
     {
-        id: 3,
+        id: 5,
         name: "Sc GisellBot",
         price: 40000,
         image: "https://telegra.ph/file/4c96073370c1f31e015c1.jpg",
@@ -164,7 +164,7 @@ const products = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         name: "Nokos Virtual All Country",
         price: 7000,
         image: "https://telegra.ph/file/1aa5f3490241098746a03.jpg",
@@ -197,7 +197,7 @@ const products = [
         ]
     },
     {
-        id: 4,
+        id: 7,
         name: "SC KOMARI_BOTZ",
         price: 65000,
         image: "https://telegra.ph/file/925f1006a95e568bb6b1b.jpg",
@@ -223,7 +223,7 @@ const products = [
         ]
     },
     {
-        id: 11,
+        id: 8,
         name: "VPS DO & PANEL PRIVAT",
         price: 2000,
         image: "https://telegra.ph/file/6998249dbf2154f63df33.jpg",
@@ -251,7 +251,7 @@ const products = [
         ]
     },
     {
-        id: 6,
+        id: 9,
         name: "Sc Bot Md Getaway Qris",
         price: 40000,
         image: "https://telegra.ph/file/519c96a636118ee9ba1bf.jpg",
@@ -284,7 +284,7 @@ const products = [
         ]
     },
     {
-        id: 14,
+        id: 10,
         name: "VPS DIGITAL OCEAN",
         price: 35000,
         image: "https://telegra.ph/file/35bb4006e051f63fe5c78.jpg",
@@ -308,7 +308,7 @@ const products = [
         ]
     },
     {
-        id: 13,
+        id: 11,
         name: "PT PANEL",
         price: 15000,
         image: "https://telegra.ph/file/e8193b642f56d654d8625.jpg",
@@ -331,7 +331,7 @@ const products = [
         ]
     },
     {
-        id: 9,
+        id: 12,
         name: "Sc Bot Wa Fiisya MD",
         price: 35000,
         image: "https://telegra.ph/file/b15eabc4184aa41e90a2d.jpg",
@@ -367,7 +367,7 @@ TOTAL FEATURE 600+`,
         ]
     },
     {
-        id: 27,
+        id: 13,
         name: "SCRIPT NOVA-TECH",
         price: 40000,
         image: "https://telegra.ph/file/6be4af7f7dd2a3a7f84a7.jpg",
