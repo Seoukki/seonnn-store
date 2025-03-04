@@ -18,7 +18,7 @@ const products = [
         name: "Netflix",
         price: 20000,
         image: "https://pomf2.lain.la/f/iixlv83u.jpg",
-        description: `Netflix Premium, Price :\n\n- 1week 1p2u (8k)\n- 1week 1p1u (9k)\n- 1moonth 1p2u (15k)\n- 1moonth (20k)- SemiPrivate (30k)`,
+        description: `Netflix Premium, Price :           - 1week 1p2u (8k)\n- 1week 1p1u (9k)\n- 1moonth 1p2u (15k)\n- 1moonth (20k)- SemiPrivate (30k)`,
         author: "Seon",
         features: [
             "Murah meriah",
