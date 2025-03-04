@@ -15,16 +15,15 @@ const webD = 'Order Via Website'
 const products = [
     {
         id: 1,
-        name: "Panel Pterodactyl",
-        price: 7000,
-        image: "https://telegra.ph/file/1679b6df9fbe3e697c0cf.jpg",
-        description: "Panel Unli Murah, Kualitas Istimewah.",
-        author: "ShannModerz",
+        name: "Netflix",
+        price: 20000,
+        image: "https://pomf2.lain.la/f/iixlv83u.jpg",
+        description: "Netflix Premium, Price :\n\n- 1week 1p2u (8k)\n- 1week 1p1u (9k)\n- 1moonth 1p2u (15k)\n- 1moonth (20k)- SemiPrivate (30k)",
+        author: "Seon",
         features: [
-            "Unlimited",
-            "Server Privat",
-            "Garansi 15D",
-            "Max Durasi 30D"
+            "Murah meriah",
+            "Premium",
+            "Garansi 30D"
         ],
         paymentMethods: [
              {
